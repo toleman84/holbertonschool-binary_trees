@@ -30,7 +30,7 @@ parent->left = new_node;
 /* If there was an old left-child, make it the left-child of the new node */
 if (old_left_child)
 {
-ew_node->left = old_left_child;
+new_node->left = old_left_child;
 old_left_child->parent = new_node;
 }
 
