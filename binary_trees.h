@@ -1,5 +1,6 @@
 /* headers */
 #include <stdio.h>
+#include <stdlib.h>
 
 // Basic Binary Tree
 /**
