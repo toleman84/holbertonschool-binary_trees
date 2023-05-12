@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/Basic Binary Tree**/
+/*Basic Binary Tree*/
 /**
  * struct binary_tree_s - Binary tree node
  *
