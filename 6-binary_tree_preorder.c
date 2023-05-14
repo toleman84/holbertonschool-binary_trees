@@ -5,7 +5,7 @@
  * @tree: Pointer to the node to insert the left-child in.
  * @func: pointer to a function to call for each node.
  *
- * Return: pointer to the created node, or NULL on failure or if parent is NULL
+ * Return: nothing.
  */
 
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
