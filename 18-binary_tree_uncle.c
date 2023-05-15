@@ -33,7 +33,7 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
         return (NULL);
     }
 
-    node = node->parent;
+    // node = node->parent;
 
     if (node->parent->left != node)
     {
