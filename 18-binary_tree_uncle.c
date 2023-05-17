@@ -9,14 +9,14 @@
  * Return: pointer to the uncle node
  */
 
-binary_tree_t binary_tree_uncle(binary_tree_t *node)
+binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
 	if (node == NULL || node->parent == NULL || node->parent->parent == NULL)
 	{
 		return (NULL);
 	}
 
-	binary_tree_t node = node->parent;
+	node = node->parent;
 
 	if (node->parent->left != node)
 	{
@@ -27,9 +27,7 @@ binary_tree_t binary_tree_uncle(binary_tree_t *node)
 		return (node->parent->right);
 	}
 
-	// return (NULL);
-
-	// return (binary_tree_sibling(node->parent));
+	return (NULL);
 }
 
 /**
